@@ -9,6 +9,13 @@
 <title>School+ - Home Page</title>
 </head>
 <body>
+<div class="container">
+<jsp:include page="navbarGenitore.jsp"/>
+
+<jsp:include page="footer.jsp"/>
+
+</div>
+
 
 </body>
 </html>
