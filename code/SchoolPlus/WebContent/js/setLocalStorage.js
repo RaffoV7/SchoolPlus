@@ -11,7 +11,6 @@ function check(){
 				cognomeGenitore:'Rossi',
 				nomeAlunno:'Marco',
 				cognomeAlunno:'Rossi'
-
 		};
 
 
@@ -60,7 +59,7 @@ function check(){
 
 		localStorage.setItem("docenteData", JSON.stringify(docenteData));
 
-		window.location.assign("homePage.jsp");
+		window.location.assign("homePageDocente.jsp");
 
 
 

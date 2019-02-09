@@ -4,10 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<style>
+#scrutini{
+filter: grayscale(0%);
+}
+</style>
 <jsp:include page="head.jsp"></jsp:include>
 <title>Scrutini</title>
 </head>
 <body>
+	<jsp:include page="navbarDocente.jsp"></jsp:include>
 
 </body>
 </html>

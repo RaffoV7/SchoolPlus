@@ -5,9 +5,15 @@
 <head>
 <meta charset="UTF-8">
 <jsp:include page="head.jsp"></jsp:include>
+<style>
+#appello{
+filter: grayscale(0%);
+}
+</style>
 <title>Appello</title>
 </head>
 <body>
+	<jsp:include page="navbarDocente.jsp"></jsp:include>
 
 </body>
 </html>
