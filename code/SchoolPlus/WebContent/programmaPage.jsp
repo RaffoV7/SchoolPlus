@@ -62,7 +62,7 @@
 				<div class="card-body">
 					<p class="card-text" id="progCont"></p>
 				</div>
-				<button type="button" class="btn btn-primary" data-toggle="modal"
+				<button type="button" class="btn btn-md btn-primary" data-toggle="modal"
 					id="modificaBtn" data-target="#modificaProgramma">Modifica</button>
 			</div>
 		</div>

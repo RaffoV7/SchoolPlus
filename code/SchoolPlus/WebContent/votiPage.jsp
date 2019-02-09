@@ -4,7 +4,7 @@
 <html>
 <head>
 <style>
-#valutazioni{
+#voti{
 filter: grayscale(0%);
 }
 </style><meta charset="UTF-8">

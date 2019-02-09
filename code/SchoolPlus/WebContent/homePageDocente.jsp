@@ -9,6 +9,8 @@
 #home{
 filter: grayscale(0%);
 }
+
+
 </style>
 <title>School+ - Home Page</title>
 </head>
