@@ -20,6 +20,7 @@
   <div class="container-fluid">
     <a href="homePage.jsp"><img class="nav-img" src="images/icon/18statschart.png"></a>
   </div>
+  
   <div class="container-fluid">
     <a href="homePage.jsp"><img class="nav-img" src="images/icon/13Test.png"></a>
   </div>
