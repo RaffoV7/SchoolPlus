@@ -27,8 +27,6 @@ function check(){
 				'ginnastica':'5',	
 		};
 
-		console.log("benvenuto, genitore");
-
 		localStorage.setItem("genitoreData", JSON.stringify(genitoreData));
 		localStorage.setItem("votiAlunno", JSON.stringify(votiAlunno));
 
