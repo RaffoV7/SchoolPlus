@@ -7,6 +7,7 @@
 <jsp:include page="head.jsp"></jsp:include>
 <title>School+ - Home Page</title>
 </head>
+
 <jsp:include page="navbarDocente.jsp"></jsp:include>
 <!-- DOCENTE -->
 <div class="row">
@@ -30,6 +31,9 @@
 		</div>
    </div>
 </div>
+
+<body>
+
 
 <!-- GENITORE -->
 </body>
