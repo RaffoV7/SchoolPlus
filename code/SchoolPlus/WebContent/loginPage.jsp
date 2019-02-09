@@ -9,7 +9,7 @@
 <title>School+</title>
 </head>
 <body>
-<<<<<<< HEAD
+
 	 <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -40,8 +40,7 @@
   </div>
 <jsp:include page="footer.jsp"></jsp:include>
 
-=======
-	<div class="container">
+<div class="container">
 		<div class="row">
 			<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
 				<div class="card card-signin my-5">

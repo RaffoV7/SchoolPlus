@@ -1,46 +1,74 @@
-<div class="container mt-4">
-	<div class="row">
+<!--  
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
 
-		<div class="col-2">
-			<div class="card-body">
-				<img class="card-img-top " src="images/icon/28home.png">
-				<p class="card-text ">Home</p>
-			</div>
-		</div>
 
-		<div class="col-2">
-			<div class="card-body">
-				<img class="card-img-top" src="images/icon/15Ans.png">
-				<p class="card-text">Assenze e Ritardi</p>
-			</div>
-		</div>
 
-		<div class="col-2">
-			<div class="card-body">
-				<img class="card-img-top" src="images/icon/20Homework.png">
-				<p class="card-text">Assegno</p>
-			</div>
-		</div>
+ 
+  -->
+  
+ 
 
-		<div class="col-2">
-			<div class="card-body">
-				<img class="card-img-top" src="images/icon/handshake_ico.png">
-				<p class="card-text">Ricevimento docenti</p>
-			</div>
-		</div>
-		
-		<div class="col-2">
-			<div class="card-body">
-				<img class="card-img-top" src="images/icon/4Grades.png">
-				<p class="card-text">Valutazioni</p>
-			</div>
-		</div>
-		
-		<div class="col-2">
-			<div class="card-body">
-				<img class="card-img-top" src="images/icon/logout.png">
-			</div>
-		</div>
-		
-	</div>
-</div> 
+
+
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+    <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
+       <div class="container-fluid" style="display: contents;">
+   	<a href="/" class="navbar-brand"><img class="img-fluid" alt="logo" src="images/logo_school.png" style="width: 10em;border: 1px solid;border-radius: 1rem;"> 
+   	</a>
+   	</div>
+        <ul class="navbar-nav">
+        
+        	
+            <li class="nav-item active">
+                <div class="container-fluid">
+   					<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/28home.png">
+   					</a>
+   					<h6 class="mylink">Home</h6>
+   				</div>
+            </li>
+            
+            <li class="nav-item">
+               <div class="container-fluid">
+    				<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/voti.png"></a>
+    				<h6 class="mylink">Valutazioni</h6>
+  				</div>
+            </li>
+            <li class="nav-item">
+            	<div class="container-fluid">
+   					 <a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/homework.png"></a>
+   					 <h6 class="mylink">Assegno</h6>
+  				</div>
+            </li>
+            <li class="nav-item">
+            	  <div class="container-fluid">
+   					<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/handshake_ico.png"></a>
+   					<h6 class="mylink">Ricevimento<br>docenti</h6>
+   					</div>
+            </li>
+            <li class="nav-item">
+            	 <div class="container-fluid">
+    				<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/calendar.png"></a>
+    				<h6 class="mylink">Assenze<br>Ritardi</h6>
+  				</div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<style>
+.imgzoom {
+	filter: grayscale(100%);
+	transition: transform .2s;
+}
+
+.imgzoom:hover{
+	transform: scale(1.5);
+	filter: grayscale(0%);
+}
+
+.mylink{
+	text-align: center;
+	margin-top: -2rem;
+}
+</style>
