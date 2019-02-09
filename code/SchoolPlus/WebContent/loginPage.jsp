@@ -13,12 +13,11 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-          	<img alt="LogoSchool+" src="images/logo_school.png" style="border-radius: 15%; width: 100%;">
+          	<img class="img-fluid" alt="LogoSchool+" src="images/logo_school.png" style="border-radius: 1.25em; border: 0.05rem solid #8860d0;">
             <form class="form-signin">
               <div class="form-label-group">
                	<label for="inputEmail">Utente:</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Utente" required autofocus>
-                
+                <input type="email" id="inputEmail" class="form-control" placeholder="Utente" required autofocus>      
               </div>
 
               <div class="form-label-group">

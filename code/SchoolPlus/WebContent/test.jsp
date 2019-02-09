@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:include page="navbarGenitore.jsp"/>
+<jsp:include page="navbarDocente.jsp"/>
 </body>
 </html>
