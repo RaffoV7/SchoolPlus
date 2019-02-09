@@ -47,14 +47,14 @@ filter: grayscale(0%);
 				<h4 class="card-header">Benvenuto, Prof. Corinaldesi</h4>
 				<div class="text-center">
 					<img class="card-img-top " src="images/icon/1Studentmale.png"
-						alt="Card image" style="width: 15em;background-color: #5ab9ea;border: 1px solid #8860d0;border-radius: 10em;">
+						alt="Card image" style="width: 10em;background-color: #5ab9ea;border: 1px solid #8860d0;border-radius: 10em;margin-top: 1em;">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<span class="font-weight-bold">Nome: </span>Marco
+						<span class="font-weight-bold">Nome: </span>Franco
 					</p>
 					<p class="card-text">
-						<span class="font-weight-bold">Cognome: </span>Neri
+						<span class="font-weight-bold">Cognome: </span>Corinaldesi
 					</p>
 					<p class="card-text">
 						<span class="font-weight-bold">Data di nascita: </span>21/12/1960
