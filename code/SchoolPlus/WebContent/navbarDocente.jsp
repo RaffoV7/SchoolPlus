@@ -10,7 +10,7 @@
         	
             <li class="nav-item active">
                 <div class="container-fluid">
-   					<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/28home.png">
+   					<a href="homePageDocente.jsp"><img class="nav-img imgzoom" src="images/icon/28home.png">
    					</a>
    					<h6 class="mylink">Home</h6>
    				</div>
@@ -18,37 +18,37 @@
             
             <li class="nav-item">
                <div class="container-fluid">
-    				<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/22book.png"></a>
+    				<a href="appelloPage.jsp"><img class="nav-img imgzoom" src="images/icon/22book.png"></a>
     				<h6 class="mylink">Appello</h6>
   				</div>
             </li>
             <li class="nav-item">
             	<div class="container-fluid">
-   					 <a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/25checkbox.png"></a>
+   					 <a href="giustifichePage.jsp"><img class="nav-img imgzoom" src="images/icon/25checkbox.png"></a>
    					 <h6 class="mylink">Giustifiche</h6>
   				</div>
             </li>
             <li class="nav-item">
             	  <div class="container-fluid">
-   					<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/4Grades.png"></a>
+   					<a href="votiPage.jsp"><img class="nav-img imgzoom" src="images/icon/4Grades.png"></a>
    					<h6 class="mylink">Voti</h6>
    					</div>
             </li>
             <li class="nav-item">
             	 <div class="container-fluid">
-    				<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/14teacher.png"></a>
+    				<a href="argomentiPage.jsp"><img class="nav-img imgzoom" src="images/icon/14teacher.png"></a>
     				<h6 class="mylink">Argomenti</h6>
   				</div>
             </li>
             <li class="nav-item">
             	 <div class="container-fluid">
-    				<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/scrutini.png"></a>
+    				<a href="scrutiniPage.jsp"><img class="nav-img imgzoom" src="images/icon/scrutini.png"></a>
     				<h6 class="mylink">Scrutini</h6>
   				</div>
             </li>
             <li class="nav-item">
             	 <div class="container-fluid">
-    				<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/20Homework.png"></a>
+    				<a href="programmaPage.jsp"><img class="nav-img imgzoom" src="images/icon/20Homework.png"></a>
     				<h6 class="mylink">Programma</h6>
   				</div>
             </li>

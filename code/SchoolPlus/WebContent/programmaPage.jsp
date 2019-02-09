@@ -52,6 +52,7 @@
 </head>
 <body>
 
+	<jsp:include page="navbarDocente.jsp"></jsp:include>
 
 	<div class="row">
 		<div class="col-md-2"></div>
