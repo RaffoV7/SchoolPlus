@@ -14,12 +14,38 @@
 <script>
 	$(document).ready(function() {
 
+		$('#progCont').text(localStorage.getItem("programma"));
+		
 		$('#modificaBtn').click(function() {
-console.log('ive been clicked');
+			console.log('ive been clicked');
 			$('#modProg').val($('#progCont').text());
 
 		});
+		
+		$('#annulla').click(function(){
+			if(annulla()){
+				alert('Le modifiche sono state annullate correttamente');
+			} 
+		});
+
+		$('#salva').click(function(){
+			if(salva()){
+
+				var mod=$('#modProg').val();
+				localStorage.setItem("programma",mod);
+				$('#progCont').text(localStorage.getItem("programma"));
+				alert('Le modifiche sono state salvate correttamente.');
+			} 
+		});
 	});
+	
+	function annulla(){
+		confirm("Le modifiche al programma saranno scartate. Sei sicuro di voler continuare?");
+	}
+	function salva(){
+		confirm("Le modifiche al programma saranno salvate. Sei sicuro di voler continuare?");
+	}
+	
 </script>
 <title>Programma</title>
 </head>
