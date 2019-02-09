@@ -29,7 +29,7 @@ function check(){
 		localStorage.setItem("genitoreData", JSON.stringify(genitoreData));
 		localStorage.setItem("votiAlunno", JSON.stringify(votiAlunno));
 
-		window.location.assign("homePage.jsp");
+		window.location.assign("homePageGenitore.jsp");
 
 
 	} else if(email=='docente@school.plus'&&passw=='docente'){
