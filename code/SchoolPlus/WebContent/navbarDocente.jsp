@@ -3,10 +3,9 @@
 
 	<div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
 		<div class="container-fluid" style="display: contents;">
-			<a href="/" class="navbar-brand"><img class="img-fluid"
+			<img class="img-fluid"
 				alt="logo" src="images/logo_school.png"
 				style="width: 10em; border: 1px solid; border-radius: 1rem;">
-			</a>
 		</div>
 		<ul class="navbar-nav">
 
@@ -78,8 +77,13 @@
 }
 
 .appello:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	filter: grayscale(0%);
+}
+
+.mylink{
+	text-align: center;
+	margin-top: -2rem;
 }
 
 

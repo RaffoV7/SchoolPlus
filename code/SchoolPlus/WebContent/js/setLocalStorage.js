@@ -38,7 +38,7 @@ function check(){
 
 
 		localStorage.setItem("programma", programma);
-		window.location.assign("homePageDocente.jsp");
+		window.location.assign("selezionaRegistro.jsp");
 
 
 
