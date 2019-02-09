@@ -14,17 +14,44 @@
 <script>
 	$(document).ready(function() {
 
+		$('#progCont').text(localStorage.getItem("programma"));
+
 		$('#modificaBtn').click(function() {
-console.log('ive been clicked');
+			console.log('ive been clicked');
 			$('#modProg').val($('#progCont').text());
 
 		});
+
+		$('#annulla').click(function() {
+			annulla();
+		});
+
+		$('#salva').click(function() {
+			salva();
+		});
 	});
+
+	function annulla() {
+		var r = confirm("Stai per annullare le modifiche. Continuare?");
+		if (r == true) {
+			alert('Modifiche annullate');
+		}
+	}
+
+	function salva() {
+		var r = confirm("Sei sicuro di voler salvare le modifiche al programma annuale?");
+		if (r == true) {
+			var mod = $('#modProg').val();
+			localStorage.setItem("programma", mod);
+			$('#progCont').text(localStorage.getItem("programma"));
+			alert('Le modifiche sono state salvate correttamente.');
+		}
+	}
 </script>
 <title>Programma</title>
 </head>
 <body>
-	<jsp:include page="navbarDocente.jsp"></jsp:include>
+
 
 	<div class="row">
 		<div class="col-md-2"></div>
@@ -32,30 +59,10 @@ console.log('ive been clicked');
 			<div class="card" style="margin: 2em;">
 				<h4 class="card-header">Programma Annuale - A.S. 2018/19</h4>
 				<div class="card-body">
-					<p class="card-text" id="progCont">DOPO UNA INTRODUZIONE ALLA
-						PROGRAMMAZIONE ORIENTATA AGLI OGGETTI, EVIDENZIANDO ANCHE LE
-						DIFFERENZE PRINCIPALI CON ALTRI APPROCCI (PER ESEMPIO QUELLO
-						PROCEDURALE), IL CORSO SI CONCENTRERÀ SUI SEGUENTI ARGOMENTI: LA
-						PROGRAMMAZIONE ORIENTATA AGLI OGGETTI E CONCETTI DI ASTRAZIONE DEI
-						DATI E DI INCAPSULAMENTO INTRODUZIONE A JAVA E AL PROCESSO DI
-						COMPILAZIONE INTRODUZIONE AL TOOLKIT DI PROGRAMMAZIONE JDK 8.0
-						OGGETTI,VARIABILI, RIFERIMENTI; CLASSI E METODI, COMUNICAZIONE FRA
-						OGGETTI, PARAMETRI ESPLICITI E IMPLICITI; IL RIFERIMENTO THIS TIPI
-						DI DATI FONDAMENTALI. ARITMETICA E FUNZIONI MATEMATICHE
-						INVOCAZIONE DI METODI STATICI LA CLASSE STRING FILE E FLUSSI.
-						LEGGERE E SCRIVERE FILE DI TESTO; FORMATO BINARIO E FORMATO DI
-						TESTO RICHIAMI SUI COSTRUTTI DI CONTROLLO LE COLLEZIONI IN JAVA
-						CENNI SUI TIPI GENERICI, SUI TIPI ENUMERATIVI E SUI MECCANISMI DI
-						‘AUTOBOXING’ E ‘UNBOXING’. FOR GENERICO (FOR EACH) PROGETTAZIONE
-						DI CLASSI. CONCETTI DI COESIONE E ACCOPPIAMENTO INTERFACCE E
-						POLIMORFISMO EREDITARIETÀ E RIUSO MECCANISMO DI GESTIONE DELLE
-						ECCEZIONI TESTING: VERIFICA DEL COMPORTAMENTO DEGLI OGGETTI;
-						SCELTA DEI CASI DI TEST; INTEGRAZIONE DI CLASSI. DEBUGGING
-						ESPRESSIONI LAMBDA PER LA DEFINIZIONE DI FUNZIONI ANONIME
-						PROGRAMMAZIONE GRAFICA PROGRAMMARE AD EVENTI</p>
+					<p class="card-text" id="progCont"></p>
 				</div>
-				<button type="button" class="btn btn-primary" data-toggle="modal" id="modificaBtn"
-					data-target="#modificaProgramma">Modifica</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal"
+					id="modificaBtn" data-target="#modificaProgramma">Modifica</button>
 			</div>
 		</div>
 	</div>
@@ -76,15 +83,16 @@ console.log('ive been clicked');
 					<form>
 						<div class="form-group">
 							<label for="message-text" class="col-form-label">Programma:</label>
-							<textarea class="form-control" id="modProg" style="resize: none; height: 350px;"></textarea>
+							<textarea class="form-control" id="modProg"
+								style="resize: none; height: 350px;"></textarea>
 						</div>
 					</form>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary mx-3"
 						data-dismiss="modal" id="annulla">Annulla</button>
-						<button type="button" class="btn btn-primary"
-						data-dismiss="modal" id="salva">Salva</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal"
+						id="salva">Salva</button>
 				</div>
 			</div>
 		</div>
