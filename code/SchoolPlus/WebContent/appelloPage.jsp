@@ -17,7 +17,7 @@ filter: grayscale(0%);
 	
 
 	<div class="container" style=" margin-top: 5rem;padding: 2rem;">
-		<table class="table table-striped">
+		<table class="table table-striped table-bordered">
 			<thead style="background-color: #c1c8e4;">
 				<tr>
 					<th scope="col">Studenti</th>

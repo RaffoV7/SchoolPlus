@@ -1,13 +1,27 @@
+<script>
+	
+$(document).ready(function(){
+	
+	$('#logout').click(function(){
+	var r=	confirm('Sei sicuro di voler effetuare il Logout?');
+	 if(r==true){
+			window.location.assign("loginPage.jsp");
+	 } else;
+	});
+	});
+	
 
+</script>
 <nav class="navbar navbar-expand-md bg-light navbar-light">
 
-	<div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
+		<a href="selezionaRegistro.jsp"><img alt="sezione registri" src="images/icon/arrow-alt-left.png" class="nav-img imgzoom" style="width: 2rem">Selezione <br>Registro</a>
+		
+<!-- 	<div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
 		<div class="container-fluid" style="display: contents;">
-			<a href="/" class="navbar-brand"><img class="img-fluid"
+			<img class="img-fluid"
 				alt="logo" src="images/logo_school.png"
-				style="width: 10em; border: 1px solid; border-radius: 1rem;">
-			</a>
-		</div>
+				style="width: 10rem; border: 1px solid; border-radius: 1rem;">
+		</div> -->
 		<ul class="navbar-nav">
 
 
@@ -21,7 +35,7 @@
 
 			<li class="nav-item">
 				<div class="container-fluid">
-					<a href="appelloPage.jsp"><img class="nav-img imgzoom appello"
+					<a href="appelloPage.jsp"><img class="nav-img imgzoom myicon"
 						id="appello" src="images/icon/22book.png"></a>
 					<h6 class="mylink">Appello</h6>
 				</div>
@@ -42,7 +56,7 @@
 			</li>
 			<li class="nav-item">
 				<div class="container-fluid">
-					<a href="argomentiPage.jsp"><img class="nav-img imgzoom"
+					<a href="argomentiPage.jsp"><img class="nav-img imgzoom myicon"
 						id="argomenti" src="images/icon/14teacher.png"></a>
 					<h6 class="mylink">Argomenti</h6>
 				</div>
@@ -63,6 +77,9 @@
 			</li>
 		</ul>
 	</div>
+	
+	<a href="#" id="logout">Logout<img alt="logout" src="images/icon/logout.png"class="nav-img imgzoom"></a>
+	
 </nav>
 
 
@@ -76,11 +93,13 @@
 	transform: scale(1.5);
 	filter: grayscale(0%);
 }
-
-.appello:hover {
-	transform: scale(1.2);
-	filter: grayscale(0%);
+.myicon{
+	padding: 1rem;
 }
 
 
+.mylink { 
+	text-align : center;
+	margin-top: -2rem;
+}
 </style>

@@ -109,7 +109,7 @@
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
 
-			<table class="table table-striped my-3" id="argLezioni">
+			<table class="table table-striped my-3 table-bordered" id="argLezioni">
 				<thead style="background-color: #c1c8e4;">
 					<tr>
 						<th scope="col">Data della lezione</th>
