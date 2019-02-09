@@ -47,7 +47,7 @@ filter: grayscale(0%);
 				<h4 class="card-header">Benvenuto, Prof. Corinaldesi</h4>
 				<div class="text-center">
 					<img class="card-img-top " src="images/icon/1Studentmale.png"
-						alt="Card image" style="width: 50%; height: 50%">
+						alt="Card image" style="width: 15em;background-color: #5ab9ea;border: 1px solid #8860d0;border-radius: 10em;">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
