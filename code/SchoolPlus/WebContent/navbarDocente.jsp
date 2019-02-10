@@ -12,19 +12,19 @@ $(document).ready(function(){
 	
 
 </script>
-<nav class="navbar navbar-expand-md bg-light navbar-light">
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
 
 		<a href="selezionaRegistro.jsp"><img alt="sezione registri" src="images/icon/arrow-alt-left.png" class="nav-img imgzoom" style="width: 2rem">Selezione <br>Registro</a>
 		
-<!-- 	<div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
-		<div class="container-fluid" style="display: contents;">
+	<div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
+	<!-- 	<div class="container-fluid" style="display: contents;">
 			<img class="img-fluid"
 				alt="logo" src="images/logo_school.png"
 
 				style="width: 10rem; border: 1px solid; border-radius: 1rem;">
 		</div> -->
 
-		</div>
+		
 		<ul class="navbar-nav">
 
 
@@ -79,14 +79,25 @@ $(document).ready(function(){
 				</div>
 			</li>
 		</ul>
+		<a href="#" id="logout"><img alt="logout" src="images/icon/logout.png"class="nav-img imgzoom">Logout</a>
 	</div>
 	
-	<a href="#" id="logout">Logout<img alt="logout" src="images/icon/logout.png"class="nav-img imgzoom"></a>
+	
 	
 </nav>
 
 
 <style>
+
+#logout{
+	text-align: center;
+	margin-right: -2rem;
+}
+
+.mylink{
+	text-align: center;
+	margin-top: -2rem;
+}
 .imgzoom {
 	filter: grayscale(100%);
 	transition: transform .2s;
@@ -106,10 +117,7 @@ $(document).ready(function(){
 	filter: grayscale(0%);
 }
 
-.mylink{
-	text-align: center;
-	margin-top: -2rem;
-}
+
 
 
 </style>
