@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <jsp:include page="head.jsp"></jsp:include>
-<title>School + - Area Genitore</title>
+<title>School+  Area Genitore</title>
 </head>
 <body>
 <jsp:include page="navbarGenitore.jsp"></jsp:include>
@@ -65,4 +65,9 @@
 	<jsp:include page="footer.jsp"></jsp:include>
 
 </body>
+<style>
+#home{
+	filter: grayscale(0%);
+}
+</style>
 </html>

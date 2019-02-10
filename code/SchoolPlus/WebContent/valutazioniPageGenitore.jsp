@@ -86,6 +86,11 @@
 
 	</div>
 
-
+<jsp:include page="footer.jsp"></jsp:include>
 </body>
+<style>
+#valutazioni{
+	filter: grayscale(0%);
+}
+</style>
 </html>

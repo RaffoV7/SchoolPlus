@@ -175,6 +175,6 @@ $('#torna').click(function(){
 
 	</div>
 
-
+<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

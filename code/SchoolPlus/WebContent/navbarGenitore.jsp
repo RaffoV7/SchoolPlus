@@ -12,7 +12,7 @@
         	
             <li class="nav-item active">
                 <div class="container-fluid">
-   					<a href="homePageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/28home.png">
+   					<a href="homePageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/28home.png" id="home">
    					</a>
    					<h6 class="mylink">Home</h6>
    				</div>
@@ -20,25 +20,25 @@
             
             <li class="nav-item">
                <div class="container-fluid">
-    				<a href="valutazioniPageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/voti.png"></a>
+    				<a href="valutazioniPageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/voti.png" id="valutazioni"></a>
     				<h6 class="mylink">Valutazioni</h6>
   				</div>
             </li>
             <li class="nav-item">
             	<div class="container-fluid">
-   					 <a href="assegnoPage.jsp"><img class="nav-img imgzoom" src="images/icon/homework.png"></a>
+   					 <a href="assegnoPage.jsp"><img class="nav-img imgzoom" src="images/icon/homework.png" id="assegno"></a>
    					 <h6 class="mylink">Assegno</h6>
   				</div>
             </li>
             <li class="nav-item">
             	  <div class="container-fluid">
-   					<a href="ricevimentoPageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/handshake_ico.png"></a>
+   					<a href="ricevimentoPageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/handshake_ico.png" id="ricevimento"></a>
    					<h6 class="mylink">Ricevimento<br>docenti</h6>
    					</div>
             </li>
             <li class="nav-item">
             	 <div class="container-fluid">
-    				<a href="assenzePageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/calendar.png"></a>
+    				<a href="assenzePageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/calendar.png" id="assenze"></a>
     				<h6 class="mylink">Assenze<br>Ritardi</h6>
   				</div>
             </li>

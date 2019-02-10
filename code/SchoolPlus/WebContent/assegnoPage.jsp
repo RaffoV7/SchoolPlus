@@ -112,11 +112,16 @@
 			
 		</div>
 	</div>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 <style>
 
 .materia{
 	display: none;
 	}
+	
+#assegno{
+	filter: grayscale(0%);
+}
 </style>
 </html>
