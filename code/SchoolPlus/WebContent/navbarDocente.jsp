@@ -22,10 +22,9 @@ $(document).ready(function(){
 				alt="logo" src="images/logo_school.png"
 
 				style="width: 10rem; border: 1px solid; border-radius: 1rem;">
-
-		</div>
 		</div> -->
 
+		
 		<ul class="navbar-nav">
 
 
@@ -80,10 +79,8 @@ $(document).ready(function(){
 				</div>
 			</li>
 		</ul>
-
 		<a href="#" id="logout"><img alt="logout" src="images/icon/logout.png"class="nav-img imgzoom">Logout</a>
 	</div>
-
 	
 	
 	

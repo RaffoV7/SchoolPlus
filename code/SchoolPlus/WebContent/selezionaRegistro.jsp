@@ -11,7 +11,7 @@ $(document).ready(function(){
  $("#confermaRegistro").click(function(){
 	 localStorage.setItem('classe', $('#classe').val());
 	 window.location.assign('homePageDocente.jsp');
-	});
+ });
 });
 </script>
 
@@ -24,10 +24,10 @@ $(document).ready(function(){
 				<div class="card-body">
 					<img alt="LogoSchool+" src="images/logo_school.png"
 						style="border-radius: 15%; width: 100%;">
-					<p class="card-text mt-2">Benvenuto prof. Rossi. Selezioni un
-						registro per iniziare.</p>
-
-					<select class="form-control" id="classe">
+						<p class="card-text mt-2">Benvenuto prof. Rossi. Selezioni un registro per iniziare.</p>
+						
+						 <select
+						class="form-control" id="classe">
 						<option>I A</option>
 						<option>II A</option>
 						<option>III A</option>
@@ -38,12 +38,10 @@ $(document).ready(function(){
 					</select>
 
 					<button class="btn btn-lg btn-primary btn-block text-uppercase"
-						type="submit" id="confermaRegistro">Conferma</button>
+						type="submit" id="confermaRegistro" >Conferma</button>
 
 				</div>
 			</div>
 		</div>
 	</div>
-	<jsp:include page="footer.jsp"></jsp:include>
-
 </body>
