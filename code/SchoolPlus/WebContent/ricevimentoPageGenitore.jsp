@@ -7,7 +7,6 @@
 <title>Prenotazione ricevimento</title>
 <jsp:include page="head.jsp"></jsp:include>
 <script>
-function annulla() {
 	$(document).ready(function() {
 
 	
@@ -24,16 +23,15 @@ function annulla() {
 	function annulla() {
 		var r = confirm("Stai per annullare le modifiche. Continuare?");
 		if (r == true) {
-			alert('Modifiche annullate');
+			alert('Prenotazione non effettuata');
 		}
 	}
 
 	function salva() {
 		var r = confirm("Sei sicuro di voler prenotare il ricevimento?");
 		if (r == true) {
-			
-			
-			alert('Le modifiche sono state salvate correttamente.');
+
+			alert('È stato prenotato un appuntamento con il docente.');
 		}
 	}
 
@@ -61,17 +59,17 @@ function annulla() {
 					<td>1^</td>
 					<td></td>
 					<td></td>
-					<td>Prof. B.B. - Storia<span></span>
+					<td>Prof. B.B. - Storia
 						<button type="button" class="btn btn-primary buttonRicev" data-toggle="modal"
-							data-target="#prenotaRicevimento">Pronota</button></td>
+							data-target="#prenotaRicevimento">Prenota</button></td>
 					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>2^</td>
-					<td>Prof. F.F. - Matematica<span></span>
+					<td>Prof. F.F. - Matematica
 						<button type="button" class="btn btn-primary buttonRicev" data-toggle="modal"
-							data-target="#prenotaRicevimento">Pronota</button></td>
+							data-target="#prenotaRicevimento">Prenota</button></td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -81,13 +79,13 @@ function annulla() {
 					<td>3^</td>
 					<td></td>
 					<td></td>
-					<td>Prof. E.E. - Biologia<span></span>
+					<td>Prof. E.E. - Biologia
 						<button type="button" class="btn btn-primary buttonRicev" data-toggle="modal"
-							data-target="#prenotaRicevimento">Pronota</button></td>
+							data-target="#prenotaRicevimento">Prenota</button></td>
 					<td></td>
-					<td>Prof. N.N. - Latino<span></span>
+					<td>Prof. N.N. - Latino
 						<button type="button" class="btn btn-primary buttonRicev" data-toggle="modal"
-							data-target="#prenotaRicevimento">Pronota</button></td>
+							data-target="#prenotaRicevimento">Prenota</button></td>
 				</tr>
 				<tr>
 					<td>4^</td>
@@ -109,7 +107,7 @@ function annulla() {
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Effettua la prenotazione<h5>
+					<h5 class="modal-title" id="exampleModalLongTitle">Effettua la prenotazione</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>

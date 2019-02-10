@@ -177,7 +177,8 @@
 					</tr>
 					<tr>
 						<td>Veniero Vincenzo</td>
-						<td><input id="check6" type="checkbox"></td>
+						<td><input id="check6t hs
+						" type="checkbox"></td>
 					</tr>
 				</tbody>
 			</table>
