@@ -1,4 +1,17 @@
+<script>
+	
+$(document).ready(function(){
+	
+	$('#logout').click(function(){
+	var r=	confirm('Sei sicuro di voler effetuare il Logout?');
+	 if(r==true){
+			window.location.assign("loginPage.jsp");
+	 } else;
+	});
+	});
+	
 
+</script>
 
 
 <nav class="navbar navbar-expand-lg bg-light navbar-light">

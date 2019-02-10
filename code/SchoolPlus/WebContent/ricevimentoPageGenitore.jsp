@@ -50,9 +50,12 @@
 			salvaLat();
 		});
 		
-		$('.annullaAppuntamento').click(function(){
-			
+		$("#tabellaInviti").on('click', '.annullaAppuntamento btn btn-primary', function () {
+			var row= $(this).closest('tr');
+
+			row.remove();
 		});
+
 	});
 
 	function annullaStoria() {
@@ -71,7 +74,7 @@
 			$('#ricevimento2').toggle();
 			$('#tabellaInviti > tbody:last-child')
 					.append(
-							'<tr><td>30/10/2018</td><td>8:30</td><td>Prof. B.B.</td><td>Storia</td><td><button class="annullaAppuntamento" type="button">X</button></td></tr>');
+							'<tr><td>30/10/2018</td><td>8:30</td><td>Prof. B.B.</td><td>Storia</td><td><button class="annullaAppuntamento btn btn-primary btn btn-primary" type="button">X</button></td></tr>');
 		}
 	}
 
@@ -91,7 +94,7 @@
 			$('#ricevimento2').toggle();
 			$('#tabellaInviti > tbody:last-child')
 					.append(
-							'<tr><td>30/10/2018</td><td>10:30</td><td>Prof. F.F.</td><td>Matematica</td><td><button class="annullaApppuntamento" type="button">X</button></td></tr>');
+							'<tr><td>30/10/2018</td><td>10:30</td><td>Prof. F.F.</td><td>Matematica</td><td><button class="annullaAppuntamento btn btn-primary" type="button">X</button></td></tr>');
 		}
 	}
 
@@ -111,7 +114,7 @@
 			$('#ricevimento2').toggle();
 			$('#tabellaInviti > tbody:last-child')
 					.append(
-							'<tr><td>30/10/2018</td><td>11:30<td>Prof. B.B.</td><td>Biologia</td><td><button class="annullaApppuntamento" type="button">X</button></td></tr>');
+							'<tr><td>30/10/2018</td><td>11:30<td>Prof. B.B.</td><td>Biologia</td><td><button class="annullaAppuntamento btn btn-primary" type="button">X</button></td></tr>');
 		}
 	}
 
@@ -131,7 +134,7 @@
 			$('#ricevimento2').toggle();
 			$('#tabellaInviti > tbody:last-child')
 					.append(
-							'<tr><td>30/10/2018</td><td>11:30<td>Prof. N.N.</td><td>Latino</td><td><button class="annullaApppuntamento" type="button">X</button></td></tr>');
+							'<tr><td>30/10/2018</td><td>11:30<td>Prof. N.N.</td><td>Latino</td><td><button class="annullaAppuntamento btn btn-primary" type="button">X</button></td></tr>');
 		}
 	}
 </script>
