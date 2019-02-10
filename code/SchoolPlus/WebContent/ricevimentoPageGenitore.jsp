@@ -7,7 +7,7 @@
 <title>Prenotazione ricevimento</title>
 <jsp:include page="head.jsp"></jsp:include>
 <script>
-function annulla() {
+
 	$(document).ready(function() {
 
 	
