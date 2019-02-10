@@ -76,8 +76,6 @@
 	display: inline-block;
 }
 
-.table span, td:hover {
-	background-color: rgba(195, 202, 229, 0.75);
-}
+
 </style>
 </html>

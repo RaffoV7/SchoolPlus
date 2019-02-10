@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
             	  <div class="container-fluid">
-   					<a href="homePage.jsp"><img class="nav-img imgzoom" src="images/icon/handshake_ico.png"></a>
+   					<a href="ricevimentoPageGenitore.jsp"><img class="nav-img imgzoom" src="images/icon/handshake_ico.png"></a>
    					<h6 class="mylink">Ricevimento<br>docenti</h6>
    					</div>
             </li>
