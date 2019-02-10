@@ -23,7 +23,7 @@
 	function annulla() {
 		var r = confirm("Stai per annullare le modifiche. Continuare?");
 		if (r == true) {
-			alert('Prenotazione non effettuata');
+			alert('Prenotazione annullate');
 		}
 	}
 
