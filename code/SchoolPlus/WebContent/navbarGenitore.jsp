@@ -1,7 +1,7 @@
 
 
 
-<nav class="navbar navbar-expand-md bg-light navbar-light">
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
     <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
        <div class="container-fluid" style="display: contents;">
    	<a href="/" class="navbar-brand"><img class="img-fluid" alt="logo" src="images/logo_school.png" style="width: 10em;border: 1px solid;border-radius: 1rem;"> 

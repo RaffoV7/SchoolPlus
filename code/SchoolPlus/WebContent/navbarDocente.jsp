@@ -12,7 +12,7 @@ $(document).ready(function(){
 	
 
 </script>
-<nav class="navbar navbar-expand-md bg-light navbar-light">
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
 
 		<a href="selezionaRegistro.jsp"><img alt="sezione registri" src="images/icon/arrow-alt-left.png" class="nav-img imgzoom" style="width: 2rem">Selezione <br>Registro</a>
 		
@@ -22,9 +22,9 @@ $(document).ready(function(){
 				alt="logo" src="images/logo_school.png"
 
 				style="width: 10rem; border: 1px solid; border-radius: 1rem;">
-		</div> -->
 
 		</div>
+		</div> -->
 		<ul class="navbar-nav">
 
 
@@ -79,7 +79,6 @@ $(document).ready(function(){
 				</div>
 			</li>
 		</ul>
-	</div>
 	
 	<a href="#" id="logout">Logout<img alt="logout" src="images/icon/logout.png"class="nav-img imgzoom"></a>
 	
