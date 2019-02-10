@@ -12,6 +12,18 @@ filter: grayscale(0%);
 
 
 </style>
+
+<script>
+
+$(document).ready(function(){
+	
+	$('#classe').text(localStorage.getItem("classe"));
+	
+	
+});
+
+</script>
+
 <title>School+ - Home Page</title>
 </head>
 <body>
@@ -64,6 +76,11 @@ filter: grayscale(0%);
 					<p class="card-text">
 						<span class="font-weight-bold">Insegna presso: </span>Liceo de
 						Chirico
+					</p>
+					<p class="card-text">
+						<span class="font-weight-bold">Classe: </span><span id="classe">
+						
+						</span>
 					</p>
 				</div>
 			</div>

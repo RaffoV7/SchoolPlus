@@ -20,8 +20,11 @@ $(document).ready(function(){
 		<div class="container-fluid" style="display: contents;">
 			<img class="img-fluid"
 				alt="logo" src="images/logo_school.png"
+
 				style="width: 10rem; border: 1px solid; border-radius: 1rem;">
 		</div> -->
+
+		</div>
 		<ul class="navbar-nav">
 
 
@@ -93,13 +96,20 @@ $(document).ready(function(){
 	transform: scale(1.5);
 	filter: grayscale(0%);
 }
+
 .myicon{
 	padding: 1rem;
+
+
+.appello:hover {
+	transform: scale(1.1);
+	filter: grayscale(0%);
 }
 
-
-.mylink { 
-	text-align : center;
+.mylink{
+	text-align: center;
 	margin-top: -2rem;
 }
+
+
 </style>

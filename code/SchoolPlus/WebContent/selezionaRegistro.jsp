@@ -6,6 +6,15 @@
 <meta charset="UTF-8">
 <jsp:include page="head.jsp"></jsp:include>
 
+<script>
+$(document).ready(function(){
+ $("#confermaRegistro").click(function(){
+	 localStorage.setItem('classe', $('#classe').val());
+	 window.location.assign('homePageDocente.jsp');
+ });
+});
+</script>
+
 <title>Seleziona Registro</title>
 </head>
 <body>
@@ -18,15 +27,18 @@
 						<p class="card-text mt-2">Benvenuto prof. Rossi. Selezioni un registro per iniziare.</p>
 						
 						 <select
-						class="form-control">
+						class="form-control" id="classe">
+						<option>I A</option>
+						<option>II A</option>
 						<option>III A</option>
+						<option>IV A</option>
+						<option>V A</option>
 					</select> <select class="form-control">
 						<option>Informatica</option>
-						<option></option>
 					</select>
 
 					<button class="btn btn-lg btn-primary btn-block text-uppercase"
-						type="submit" id="confermaRegi" >Conferma</button>
+						type="submit" id="confermaRegistro" >Conferma</button>
 
 				</div>
 			</div>
