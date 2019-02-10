@@ -88,7 +88,7 @@
 
 
 	<h2 class="text-center card-title my-2" id="titolo"></h2>
-	<div class="container position-absolute" style="margin-top: 2rem"
+	<div class="container" style="margin-top: 2rem; margin-bottom: 5rem !important;"
 		id="assenze1">
 
 		<table class="table table-striped table-bordered"
@@ -183,7 +183,7 @@
 	</div>
 
 
-	<div class="container position-absolute" id="assenze2">
+	<div class="container" id="assenze2">
 
 		<div class="col-lg-2"></div>
 		<div class="col-lg-8">
