@@ -17,7 +17,7 @@ filter: grayscale(0%);
 
 $(document).ready(function(){
 	
-	$('#classe').text(localStorage.getItem("classe"));
+	$('#classeCard').text(localStorage.getItem("classe"));
 	
 	
 });
@@ -78,7 +78,7 @@ $(document).ready(function(){
 						Chirico
 					</p>
 					<p class="card-text">
-						<span class="font-weight-bold">Classe: </span><span id="classe">
+						<span class="font-weight-bold">Classe: </span><span id="classeCard">
 						
 						</span>
 					</p>
