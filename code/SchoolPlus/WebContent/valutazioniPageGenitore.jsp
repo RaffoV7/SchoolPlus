@@ -9,20 +9,21 @@
 
 
 <script>
-	$(document).ready(
-			function() {
-				$("#myInput").on(
-						"keyup",
-						function() {
-							var value = $(this).val().toLowerCase();
-							$("#myTable tr").filter(
-									function() {
-										$(this).toggle(
-												$(this).text().toLowerCase()
-														.indexOf(value) > -1)
-									});
-						});
-			});
+	$(document).ready(function() {
+		$('#materieSelect').change(function() {
+
+			$('#myTable > tr').each(function() {
+
+				if ($(this).hasClass($('#materieSelect').val()))
+					$(this).show();
+				else
+					$(this).hide();
+
+			})
+
+		});
+
+	});
 </script>
 
 
@@ -32,10 +33,15 @@
 
 	<div class="container mt-3">
 		<h3 class="text-center">Valutazioni</h3>
-		<input class="form-control" id="myInput" type="text"
-			placeholder="Materia.."> <br>
-		<table class="table table-bordered table-striped">
-		<thead style="background-color: #c1c8e4;">
+		<select class="form-control" id="materieSelect">
+			<option selected disabled>Seleziona materia...</option>
+			<option value="informatica">Informatica</option>
+			<option value="matematica">Matematica</option>
+			<option value="geografia">Geografia</option>
+			<option value="storia">Storia</option>
+		</select> <br>
+		<table class="table table-bordered table-striped" id="materie">
+			<thead style="background-color: #c1c8e4;">
 				<tr>
 					<th>Materia</th>
 					<th>Orale</th>
@@ -44,41 +50,59 @@
 				</tr>
 			</thead>
 			<tbody id="myTable">
-				<tr>
+				<tr class="matematica">
 					<td>Matematica</td>
 					<td>5</td>
 					<td>/</td>
 					<td>10/10/2018</td>
 				</tr>
-				<tr>
+				<tr class="matematica">
 					<td>Matematica</td>
 					<td>/</td>
 					<td>6</td>
 					<td>15/10/2018</td>
 				</tr>
-				<tr>
+				<tr class="informatica">
 					<td>Informatica</td>
 					<td>/</td>
 					<td>7</td>
 					<td>07/11/2018</td>
 				</tr>
-				<tr>
+				<tr class="geografia">
 					<td>Geografia</td>
 					<td>6</td>
 					<td>/</td>
 					<td>12/11/2018</td>
 				</tr>
-				<tr>
+				<tr class="storia">
 					<td>Storia</td>
 					<td>4</td>
 					<td>/</td>
 					<td>23/11/2018</td>
 				</tr>
-				<tr>
+				<tr class="informatica">
 					<td>Informatica</td>
 					<td>8</td>
 					<td>/</td>
 					<td>28/11/2018</td>
+				</tr>
+				<tr class="geografia">
+					<td>Geografia</td>
+					<td>9</td>
+					<td>/</td>
+					<td>30/11/2018</td>
+				</tr>
+				<tr class="storia">
+					<td>Storia</td>
+					<td>7</td>
+					<td>/</td>
+					<td>10/12/2018</td>
+				</tr>
+				<tr class="informatica">
+					<td>Informatica</td>
+					<td>10</td>
+					<td>/</td>
+					<td>19/12/2018</td>
 				</tr>
 
 			</tbody>
@@ -86,10 +110,10 @@
 
 	</div>
 
-<jsp:include page="footer.jsp"></jsp:include>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 <style>
-#valutazioni{
+#valutazioni {
 	filter: grayscale(0%);
 }
 </style>
