@@ -32,6 +32,8 @@
 
 				$('#conferma').click(function() {
 					
+				var r = confirm("Sei sicuro di voler aggiungere questa valutazione all'alunno?");
+				if (r == true) {	
 					
 				if ($('#check1').prop('checked')) {
 						$('#ass1').text('A');
@@ -77,6 +79,9 @@
 				alert("Assenze inserite correttamente.");
 					$('#assenze1').toggle();
 					$('#assenze2').toggle();
+				
+				} else 	alert("Operazione annullata.");
+
 				});
 
 			});
@@ -179,7 +184,7 @@
 
 		<button class="float-right btn btn-primary" id="insert">Inserisci
 			le assenze</button>
-
+<jsp:include page="footer.jsp"></jsp:include>
 	</div>
 
 
@@ -230,10 +235,10 @@
 		</div>
 
 		<button class="btn btn-primary float-right" id="conferma">Conferma</button>
+<jsp:include page="footer.jsp"></jsp:include>
 
 	</div>
 
-<jsp:include page="footer.jsp"></jsp:include>
 
 </body>
 </html>

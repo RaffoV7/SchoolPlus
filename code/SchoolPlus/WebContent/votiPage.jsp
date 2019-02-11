@@ -30,6 +30,8 @@ td:hover {
 
 		$('#salva').click(function() {
 			voto=salva();
+			
+			td.find('label').remove();
 			td.append('<label>'+voto+'</label>');
 		});
 	});
@@ -79,115 +81,162 @@ td:hover {
 			<tbody>
 				<tr>
 					<td>Corinaldesi Marianna</td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
 
 				</tr>
 				<tr>
 					<td>Cuccurullo Alessio</td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
 
 				</tr>
 				<tr>
 					<td>Giorno Giovanna</td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
 
 				</tr>
 				<tr>
 					<td>Giuliano Francesco</td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
 
 				</tr>
 				<tr>
 					<td>Vitiello Raffaele</td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
 
 				</tr>
 				<tr>
 					<td>Veniero Vincenzo</td>
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
 
-					<td data-toggle="modal" data-target="#aggiungiVoto"></td>
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
+
+					<td data-toggle="modal" data-target="#aggiungiVoto"><label style="color:gray">Inserisci voto</label></td>
+
 
 				</tr>
 			</tbody>
