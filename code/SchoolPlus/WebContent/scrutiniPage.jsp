@@ -110,8 +110,7 @@ td.addvoto:hover {
 			<tbody>
 				<tr>
 					<td class=" addvoto" data-toggle="modal"
-						data-target="#aggiungiValutazione"><label class="alunno">Corinaldesi
-							Marianna</label> <label style="float: right;">+</label></td>
+						data-target="#aggiungiValutazione"><label class="alunno">Corinaldesi  Marianna</label> <label style="float: right;">+</label></td>
 					<td class="assPQ"></td>
 
 					<td class="scPQ"></td>
@@ -127,8 +126,7 @@ td.addvoto:hover {
 				</tr>
 				<tr>
 					<td class=" addvoto" data-toggle="modal"
-						data-target="#aggiungiValutazione"><label class="alunno">Cuccurullo
-							Alessio</label><label style="float: right;">+</label></td>
+						data-target="#aggiungiValutazione"><label class="alunno">Cuccurullo Alessio</label><label style="float: right;">+</label></td>
 					<td class="assPQ"></td>
 
 					<td class="scPQ"></td>
@@ -145,8 +143,7 @@ td.addvoto:hover {
 				</tr>
 				<tr>
 					<td class=" addvoto" data-toggle="modal"
-						data-target="#aggiungiValutazione"><label class="alunno">Giorno
-							Giovanna</label><label style="float: right;">+</label></td>
+						data-target="#aggiungiValutazione"><label class="alunno">Giorno Giovanna</label><label style="float: right;">+</label></td>
 					<td class="assPQ"></td>
 
 					<td class="scPQ"></td>
@@ -162,8 +159,7 @@ td.addvoto:hover {
 				</tr>
 				<tr>
 					<td class=" addvoto" data-toggle="modal"
-						data-target="#aggiungiValutazione"><label class="alunno">Giuliano
-							Francesco</label><label style="float: right;">+</label></td>
+						data-target="#aggiungiValutazione"><label class="alunno">Giuliano Francesco</label><label style="float: right;">+</label></td>
 					<td class="assPQ"></td>
 
 					<td class="scPQ"></td>
@@ -178,8 +174,7 @@ td.addvoto:hover {
 				</tr>
 				<tr>
 					<td class=" addvoto" data-toggle="modal"
-						data-target="#aggiungiValutazione"><label class="alunno">Vitiello
-							Raffaele</label><label style="float: right;">+</label></td>
+						data-target="#aggiungiValutazione"><label class="alunno">Vitiello Raffaele</label><label style="float: right;">+</label></td>
 					<td class="assPQ"></td>
 
 					<td class="scPQ"></td>
@@ -194,8 +189,7 @@ td.addvoto:hover {
 				</tr>
 				<tr>
 					<td class=" addvoto" data-toggle="modal"
-						data-target="#aggiungiValutazione"><label class="alunno">Veniero
-							Vincenzo</label><label style="float: right;">+</label></td>
+						data-target="#aggiungiValutazione"><label class="alunno">Veniero Vincenzo</label><label style="float: right;">+</label></td>
 					<td class="assPQ"></td>
 
 					<td class="scPQ"></td>
@@ -233,7 +227,7 @@ td.addvoto:hover {
 						name="optradio" id="pq" checked>Primo quadrimestre
 					</label> <label class="radio-inline mx-2"> <input type="radio"
 						name="optradio" id="sq">Secondo quadrimestre
-					</label> <label>Assenze del primo quadrimestre:</label> <input
+					</label><br> <label>Assenze del primo quadrimestre:</label> <input
 						id="numeroAss" type="text" placeholder="Numero di assenze">
 					<br> <label>Voto Scritto:</label> <select id="votoScritto"
 						class="mb-3 custom-select">

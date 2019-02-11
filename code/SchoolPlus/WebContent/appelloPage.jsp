@@ -32,7 +32,7 @@
 
 				$('#conferma').click(function() {
 					
-				var r = confirm("Sei sicuro di voler aggiungere questa valutazione all'alunno?");
+				var r = confirm("Sei sicuro di voler inserire le assenze di oggi?");
 				if (r == true) {	
 					
 				if ($('#check1').prop('checked')) {

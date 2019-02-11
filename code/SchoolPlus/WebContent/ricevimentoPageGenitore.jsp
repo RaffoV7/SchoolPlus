@@ -50,10 +50,14 @@
 			salvaLat();
 		});
 		
-		$("#tabellaInviti").on('click', '.annullaAppuntamento btn btn-primary', function () {
+		$("#tabellaInviti").on('click', '.annullaAppuntamento', function () {
 			var row= $(this).closest('tr');
-
+			
+			var r= confirm("Vuoi cancellare l'appuntamento con il docente?");
+			if(r==true){
 			row.remove();
+			alert("Colloquio cancellato correttamente.");					
+			} else alert("Operazione annullata.")
 		});
 
 	});

@@ -7,7 +7,6 @@
 <script>
 	$(document).ready(function() {
 
-		$('#dataInput').focusout(validaData);
 		
 		
 		$('#assenzeAssenza').toggle();
@@ -93,53 +92,6 @@
 		}
 	}
 	
-	function validaData() {
-		console.log('sono in valida data');
-		var data = $('#dataInput').val();
-		var dateformat = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
-		// Match the date format through regular expression
-		if (data.match(dateformat)) {
-			//Test which seperator is used '/' or '-'
-			var opera1 = data.split('/');
-			var opera2 = data.split('-');
-			lopera1 = opera1.length;
-			lopera2 = opera2.length;
-			// Extract the string into month, date and year
-			if (lopera1 > 1) {
-				var pdate = data.split('/');
-			} else if (lopera2 > 1) {
-				var pdate = data.split('-');
-			}
-			var dd = parseInt(pdate[0]);
-			var mm = parseInt(pdate[1]);
-			var yy = parseInt(pdate[2]);
-			// Create list of days of a month [assume there is no leap year by default]
-			var ListofDays = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ];
-			if (mm == 1 || mm > 2) {
-				if (dd > ListofDays[mm - 1]) {
-					alert('Formato della data errato');
-					$('#dataInput').val("");
-				}
-			}
-			if (mm == 2) {
-				var lyear = false;
-				if ((!(yy % 4) && yy % 100) || !(yy % 400)) {
-					lyear = true;
-				}
-				if ((lyear == false) && (dd >= 29)) {
-					alert('Formato della data errato');
-					$('#dataInput').val("");
-				}
-				if ((lyear == true) && (dd > 29)) {
-					alert('Formato della data errato');
-					$('#dataInput').val("");
-				}
-			}
-		} else {
-			alert('Formato della data errato');
-			$('#dataInput').val("");
-		}
-	}
 </script>
 <meta charset="UTF-8">
 <title>Assenze e ritardi</title>
@@ -218,7 +170,7 @@
 						Assenze e Ritardi</button>
 				</div>
 				<div class="col-lg-6" style="margin-top: 1rem;">
-					<label for="input">Data:</label> <input type="text" id="dataInput">
+					<label for="input">Data:</label> <input type="date" id="dataInput">
 					<img alt="calendar" src="images/icon/30calender.png"
 						style="width: 5rem; margin-top: -1rem;">
 				</div>
@@ -251,7 +203,7 @@
 						Assenze e Ritardi</button>
 				</div>
 				<div class="col-lg-6" style="margin-top: 1rem;">
-					<label for="input">Data:</label> <input type="text" id="dataInput">
+					<label for="input">Data:</label> <input type="date" id="dataInput">
 					<img alt="calendar" src="images/icon/30calender.png"
 						style="width: 5rem; margin-top: -1rem;">
 				</div>
