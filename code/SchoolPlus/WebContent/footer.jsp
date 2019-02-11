@@ -1,5 +1,5 @@
 
-<footer class="mt-5">
+<footer class="footer">
   <div class="container-fluid bg-primary py-3" style="color: none !important;">
     <div class="container">
       <div class="row py-3">

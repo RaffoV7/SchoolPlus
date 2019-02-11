@@ -164,11 +164,15 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>20/09/2018</td>
+									<td>18/08/2018</td>
+									<td><img class="img-fluid checkImages" src="images/icon/25checkbox.png"></td>
+								</tr>
+								<tr>
+									<td>24/09/2018</td>
 									<td id="rigaAssenza"><button class="btn btn-primary mx-3"
 											id="scriviAssenza">Scrivi giustifica</button></td>
 								</tr>
-
+		
 							</tbody>
 
 						</table>

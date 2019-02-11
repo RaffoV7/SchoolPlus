@@ -1,7 +1,7 @@
 <script>
 	
 $(document).ready(function(){
-	
+	$('#classe').text(localStorage.getItem("classe"));
 	$('#logout').click(function(){
 	var r=	confirm('Sei sicuro di voler effetuare il Logout?');
 	 if(r==true){
@@ -14,8 +14,11 @@ $(document).ready(function(){
 </script>
 <nav class="navbar navbar-expand-lg bg-light navbar-light">
 
-		<a href="selezionaRegistro.jsp"><img alt="sezione registri" src="images/icon/arrow-alt-left.png" class="nav-img imgzoom" style="width: 2rem">Selezione <br>Registro</a>
+		<div class="container" style="display: grid;">
+				<a href="selezionaRegistro.jsp"><img alt="sezione registri" src="images/icon/arrow-alt-left.png" class="nav-img imgzoom" style="width: 2rem">Selezione Registro</a>
 		
+		<p style="margin: 1rem;"><span class="font-weight-bold">Classe: </span><span id="classe"></span></p>
+		</div>
 	<div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
 	<!-- 	<div class="container-fluid" style="display: contents;">
 			<img class="img-fluid"
